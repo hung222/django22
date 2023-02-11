@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'tygol.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://postgres:postgres@localhost/postgres',
+        default='postgres://huy:ocU2PILDxIa8dCs5eT6oFPLgm6Uf9zqX@dpg-cfj50l9a6gductgtd0d0-a/tyws',
         conn_max_age=600
     )
 }
